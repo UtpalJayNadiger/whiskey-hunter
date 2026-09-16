@@ -1,0 +1,22 @@
+{
+  "name": "whiskey-hunter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "session": "opencomputer session",
+    "deploy": "opencomputer deploy",
+    "build": "tsc --noEmit",
+    "test": "tsc --ignoreConfig opencomputer/agents/whiskey-hunter/tools/search-data.ts --outDir .test-build --module NodeNext --moduleResolution NodeNext --target ES2022 --skipLibCheck && node --test test/*.test.mjs",
+    "doctor": "opencomputer doctor",
+    "connect:exa": "bash scripts/connect-exa.sh"
+  },
+  "dependencies": {
+    "@opencomputer/agent": "^0.6.0"
+  },
+  "devDependencies": {
+    "@opencomputer/cli": "^0.7.0",
+    "@types/node": "^22.20.3",
+    "typescript": "^7.0.2"
+  }
+}

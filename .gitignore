@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.opencomputer/
+.env
+.env.local
+
+.test-build/
+opencomputer/.env.local
