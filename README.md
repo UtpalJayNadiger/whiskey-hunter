@@ -21,9 +21,7 @@ npm run deploy
 npm run session -- --agent whiskey-hunter "Research official limited-edition release announcements from the distilleries in my next message. Ask for my interests before searching."
 ```
 
-This checkout is already linked to the whiskey-hunter development project. Other users should link their own project. `connect:exa` reads the key with terminal echo disabled and sends it through stdin to OpenComputer's managed secret store. Do not paste keys into agent chat or commit them. The connection permits POST requests only to Exa's `/search` path; its key is injected by the egress proxy.
-
-Dashboard: https://app.opencomputer.dev/projects/prj_25e53e37fb0546aeb8e95c9c3b58dc1b
+Link your own OpenComputer project before deploying. `connect:exa` reads the key with terminal echo disabled and sends it through stdin to OpenComputer's managed secret store. Do not paste keys into agent chat or commit them. The connection permits POST requests only to Exa's `/search` path; its key is injected by the egress proxy.
 
 ## Output
 
